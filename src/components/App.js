@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react';
-import logo from '../logo.svg';
 import '../App.css';
+import Header from "./Header";
+import SearchPanel from "./SearchPanel";
 
 class App extends Component {
   constructor(props) {
