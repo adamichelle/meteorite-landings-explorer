@@ -2,10 +2,14 @@ import React, {Component, Fragment} from 'react';
 import '../App.css';
 import Header from "./Header";
 import SearchPanel from "./SearchPanel";
+import SearchResults from "./SearchResults";
 
 class App extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      isASearch: false
+    }
   }
 
   render() {
