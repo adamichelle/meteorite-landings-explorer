@@ -1,10 +1,10 @@
-import React, {Component, Fragment} from 'react';
+import React from 'react';
 import '../App.css';
 import Header from "./Header";
 import SearchPanel from "./SearchPanel";
 import SearchResults from "./SearchResults";
 
-class App extends Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
