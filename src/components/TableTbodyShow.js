@@ -2,7 +2,8 @@ import React from 'react';
 import debounce from 'lodash.debounce';
 import TableTbody from './TableTbody';
 
-const meteoriteExplorerAppToken = process.env.REACT_APP_SOCRATA_APP_TOKEN;
+// const meteoriteExplorerAppToken = process.env.REACT_APP_SOCRATA_APP_TOKEN;
+const meteoriteExplorerAppToken = REACT_APP_SOCRATA_APP_TOKEN;
 const apiUrl = `https://data.nasa.gov/resource/gh4g-9sfh.json?`;
 
 class TableTbodyShow extends React.Component {
